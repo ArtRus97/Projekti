@@ -2,35 +2,37 @@ html,
 .body {
   height: 100%;
   width: 100%;
+  background-color: lightgrey;
 }
 .content {
   max-width: 1024px;
   margin: auto;
+}
+#headerWrap{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 #header{
   background-color: #1CBBE8;
   height: 90px;
   width: 1024px;
   border-bottom: 5px solid grey;
-  margin-left: auto;
-  margin-right: auto;
-  top: auto;
+  margin: auto;
 }
 #search{
   background-color: white;
   width: 300px;
   height: 30px;
-  margin-top: 10px;
   font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 70px;
 }
 #header a.linkit{
   text-decoration: none;
   float: right;
-  margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 10px;
   color: black;
   border: 1px solid black;
   width: 100px;
@@ -39,15 +41,37 @@ html,
 #header a.logo{
   font-size: 40px;
   text-decoration: none;
-  margin-top: 20px;
   margin-left: 20px;
+  color: black;
 }
-#footer{
+#tuote-esittely{
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+}
+#tuote-esittely img{
+  width: 100%;
+}
+#tuote-esittely a.nimi{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 5px;
+}
+#tuote-esittely p{
+  font-size: 16px;
+  height: 100%;
+  margin-left: 5px;
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.footerContent{
   width: 1024px;
   height: 60px;
   background-color: #2B99FF;
-  bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border-top: 5px solid grey;
 }
