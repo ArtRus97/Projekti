@@ -1,6 +1,6 @@
-<?php include "header.php"; ?>
+<?php include "Header.php"; ?>
 
 <h2>Kirjautuminen</h2>
 
 
-<?php include "footer.php"; ?>
+<?php include "Footer.php"; ?>

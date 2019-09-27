@@ -1,7 +1,7 @@
 <title>Ostoskori</title>
-<?php include "header.php"; ?>
+<?php include "Header.php"; ?>
   <h2>Ostoskori</h2>
   <hr>
 
 
-<?php include "footer.php"; ?>
+<?php include "Footer.php"; ?>
