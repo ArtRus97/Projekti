@@ -8,6 +8,7 @@ html,
   max-width: 1024px;
   margin: auto;
 }
+
 #headerWrap{
   position: fixed;
   top: 0;
@@ -19,6 +20,8 @@ html,
   width: 1024px;
   border-bottom: 5px solid grey;
   margin: auto;
+  top: 0;
+  clear: both;
 }
 #search{
   background-color: white;
@@ -44,34 +47,49 @@ html,
   margin-left: 20px;
   color: black;
 }
+
 #tuote-esittely{
   width: 200px;
-  height: 500px;
+  max-height: 500px;
+  border: 1px solid grey;
+  float: left;
+  overflow: hidden;
+  margin: 25px;
+}
+#tuote-esittely:hover{
   border: 1px solid black;
 }
-#tuote-esittely img{
-  width: 100%;
-}
-#tuote-esittely a.nimi{
+#tuote-esittely a{
   text-decoration: none;
   color: black;
+}
+#tuote-esittely img{
+  width: 96%;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+#tuote-esittely h3{
+  color: black;
   font-size: 24px;
-  margin-left: 5px;
+  margin: 5px;
 }
 #tuote-esittely p{
   font-size: 16px;
-  height: 100%;
   margin-left: 5px;
 }
-.footer{
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+#tuote-esittely hr{
+  width: 96%;
 }
-.footerContent{
-  width: 1024px;
-  height: 60px;
-  background-color: #2B99FF;
-  margin: auto;
-  border-top: 5px solid grey;
+
+#footer {
+    width: 1024px;
+    height: 60px;
+    bottom: 0;
+    margin:auto;
+    background-color: #2B99FF;
+    border-top: 5px solid grey;
+    clear: both;
+}
+#footer h3{
+  margin-left: 5px;
 }
