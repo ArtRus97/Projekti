@@ -1,5 +1,5 @@
 <div id="tuote-esittely">
-<a href="Tekken7_sivu.php">
+<a href="tekken7_sivu.php">
   <img src="kuvat\tekken7.jpg" alt="">
   <h3>Tekken 7 <br> 40€</h3>
   <hr>

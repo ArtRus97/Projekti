@@ -1,7 +1,7 @@
 <title>Kirjautuminen</title>
-<?php include "Header.php"; ?>
+<?php include "header.php"; ?>
 
 <h2>Kirjautuminen</h2>
 
 
-<?php include "Footer.php"; ?>
+<?php include "footer.php"; ?>

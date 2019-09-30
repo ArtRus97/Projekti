@@ -1,5 +1,5 @@
 <title>Tekken 7</title>
-<?php include "Header.php"; ?>
+<?php include "header.php"; ?>
 
 <div class="vasenpalsta">
   <div class="tuote">
@@ -20,4 +20,4 @@
   </div>
 </div>
 
-<?php include "Footer.php"; ?>
+<?php include "footer.php"; ?>

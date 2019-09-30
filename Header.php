@@ -9,10 +9,10 @@
       <div id="header">
         <a class="logo" href="index.php">Verkkokauppa</a>
         <input type="text" id="search">
-        <a class="linkit" href="Kirjautuminen.php">Kirjaudu sisään</a>
-        <a class="linkit" href="Index.php">Asiakaspalvelu</a> <br>
-        <a class="linkit" href="Ostoskori.php">Ostoskori</a>
-        <a class="linkit" href="Index.php">Yhteysteiedot</a>
+        <a class="linkit" href="kirjautuminen.php">Kirjaudu sisään</a>
+        <a class="linkit" href="index.php">Asiakaspalvelu</a> <br>
+        <a class="linkit" href="ostoskori.php">Ostoskori</a>
+        <a class="linkit" href="index.php">Yhteysteiedot</a>
       </div>
     </div>
     <div class="content">
