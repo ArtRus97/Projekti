@@ -3,9 +3,9 @@
   <h2>Ostoskori</h2>
   <hr>
   <div class="vasenpalsta">
-    <?php include "tuotteet\tekken7_ostoskori.php" ?>
-    <?php include "tuotteet\mordhau_ostoskori.php" ?>
-    <?php include "tuotteet\fgo_ostoskori.php" ?>
+    <?php include "tuotteet/tekken7_ostoskori.php" ?>
+    <?php include "tuotteet/mordhau_ostoskori.php" ?>
+    <?php include "tuotteet/fgo_ostoskori.php" ?>
     </div>
   <div class="oikeapalsta">
     <div class="yhteenveto">
