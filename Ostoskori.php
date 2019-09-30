@@ -1,11 +1,11 @@
 <title>Ostoskori</title>
-<?php include "Header.php"; ?>
+<?php include "header.php"; ?>
   <h2>Ostoskori</h2>
   <hr>
   <div class="vasenpalsta">
-    <?php include "tuotteet\Tekken7_ostorkori.php" ?>
-    <?php include "tuotteet\Mordhau_ostorkori.php" ?>
-    <?php include "tuotteet\Fgo_ostorkori.php" ?>
+    <?php include "tuotteet\tekken7_ostoskori.php" ?>
+    <?php include "tuotteet\mordhau_ostoskori.php" ?>
+    <?php include "tuotteet\fgo_ostoskori.php" ?>
     </div>
   <div class="oikeapalsta">
     <div class="yhteenveto">
@@ -30,4 +30,4 @@
   </div>
 
 
-<?php include "Footer.php"; ?>
+<?php include "footer.php"; ?>
