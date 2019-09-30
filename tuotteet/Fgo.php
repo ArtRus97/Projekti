@@ -1,7 +1,7 @@
 <div id="tuote-esittely">
 <a href="#">
   <img src="kuvat\fgo.jpg" alt="">
-  <h3>Fate/Grand Order</h3>
+  <h3>Fate/Grand Order <br> 0€</h3>
   <hr>
     <p>
     DEVELOPER: Delightworks
@@ -12,5 +12,4 @@
     the game features millions of words of original story!
     Packed with content that both fans of the Fate franchise and newcomers will be able to enjoy.
   </p>
-
 </div></a>

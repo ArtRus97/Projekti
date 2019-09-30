@@ -8,6 +8,10 @@ html,
   max-width: 1024px;
   margin: auto;
 }
+.content a{
+  text-decoration: none;
+  color: black;
+}
 
 #headerWrap{
   position: fixed;
@@ -50,11 +54,14 @@ html,
 
 #tuote-esittely{
   width: 200px;
-  max-height: 500px;
-  border: 1px solid grey;
+  height: 500px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
   float: left;
-  overflow: hidden;
   margin: 25px;
+  overflow: hidden;
 }
 #tuote-esittely:hover{
   border: 1px solid black;
@@ -81,12 +88,92 @@ html,
   width: 96%;
 }
 
+#ostoskori-esittely {
+  width: 450px;
+  height: 175px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 25px;
+}
+#ostoskori-esittely img{
+  max-width: 100px;
+  float: left;
+  margin: 5px;
+}
+#ostoskori-esittely h3{
+  float: left;
+  margin: 5px;
+}
+#ostoskori-esittely p{
+  width: 400px;
+  height: 100px;
+  overflow: hidden;
+  margin: 1px;
+}
+#ostoskori-esittely input{
+  width: 40px
+}
+#ostoskori a.nappi{
+  background-color: #1CBBE8;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.vasenpalsta{
+  float: left;
+  width: 50%;
+  border-right: 1px solid black;
+}
+.oikeapalsta{
+  float: left;
+  width: 49%;
+}
+.yhteenveto{
+  margin: 25px;
+}
+.yhteenveto table{
+  border-collapse: collapse;
+  width: 200px;
+  border-top: 1px solid black;
+}
+.yhteenveto td{
+  padding: 5px;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+}
+
+.tuote img{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+}
+.tuotekuvaus{
+  margin: 25px;
+}
+.tuotekuvaus p{
+  border: 1px solid black;
+  padding: 5px;
+}
+.tuotekuvaus h3{
+  float: left;
+}
+.tuotekuvaus h3.hinta{
+  float: right;
+}
+.tuotekuvaus input{
+  width: 40px;
+}
 #footer {
     width: 1024px;
     height: 60px;
     bottom: 0;
     margin:auto;
-    background-color: #2B99FF;
+    background-color: #1CBBE8;
     border-top: 5px solid grey;
     clear: both;
 }
