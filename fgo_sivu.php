@@ -3,7 +3,7 @@
 
 <div class="vasenpalsta">
   <div class="tuote">
-    <img src="kuvat\fgo.jpg" alt="">
+    <img src="kuvat/fgo.jpg" alt="">
   </div>
 </div>
 <div class="oikeapalsta">

@@ -1,6 +1,6 @@
 <div id="tuote-esittely">
 <a href="mordhau_sivu.php">
-  <img src="kuvat\mordhau.jpg" alt="">
+  <img src="kuvat/mordhau.jpg" alt="">
   <h3>Mordhau <br> 25€</h3>
   <hr>
     <p>
