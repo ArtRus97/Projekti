@@ -1,6 +1,6 @@
 <div id="ostoskori-esittely">
   <a href="fgo_sivu.php"><h3 class="nimi">Mordhau</h3></a> <br>
-  <p><a href="fgo_sivu.php"><img src="kuvat\fgo.jpg" alt=""></a>
+  <p><a href="fgo_sivu.php"><img src="kuvat/fgo.jpg" alt=""></a>
     DEVELOPER: Delightworks.
     PUBLISHER: Aniplex.
     A new mobile "Fate RPG," presented by TYPE-MOON!

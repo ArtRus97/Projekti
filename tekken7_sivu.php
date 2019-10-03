@@ -3,7 +3,7 @@
 
 <div class="vasenpalsta">
   <div class="tuote">
-    <img src="kuvat\tekken7.jpg" alt="">
+    <img src="kuvat/tekken7.jpg" alt="">
   </div>
 </div>
 <div class="oikeapalsta">
