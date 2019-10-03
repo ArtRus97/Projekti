@@ -1,5 +1,5 @@
 <div id="tuote-esittely">
-<a href="#">
+<a href="fgo_sivu.php">
   <img src="kuvat\fgo.jpg" alt="">
   <h3>Fate/Grand Order <br> 0€</h3>
   <hr>
