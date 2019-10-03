@@ -12,7 +12,7 @@
         <table>
           <tr>
             <td><a href="index.php">Asiakaspalvelu</a></td>
-            <td><a href="kirjautuminen.php">Kirjaudu sisään</a></td>
+            <td><a href="kirjautuminen.php">Kirjautuminen</a></td>
           </tr>
           <tr>
             <td><a href="index.php">Yhteysteiedot</a></td>
