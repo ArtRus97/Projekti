@@ -8,9 +8,17 @@ html,
   max-width: 1024px;
   margin: auto;
 }
-.content a{
+a{
   text-decoration: none;
   color: black;
+}
+a.nappi{
+  background-color: #1CBBE8;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 #headerWrap{
@@ -32,24 +40,38 @@ html,
   width: 300px;
   height: 30px;
   font-size: 16px;
-  margin-left: 70px;
-}
-#header a.linkit{
-  text-decoration: none;
-  float: right;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  color: black;
-  border: 1px solid black;
-  width: 100px;
-  text-align: center;
+  display: inline-block;
+  margin-left: 80px;
 }
 #header a.logo{
   font-size: 40px;
-  text-decoration: none;
   margin-left: 20px;
-  color: black;
+  display: inline-block;
+  margin-top: 10px;
+}
+#header table{
+  float: right;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+#header td{
+  border: 1px solid black;
+  padding: 3px;
+  box-shadow: 1px 1px black;
+  text-align: center;
+}
+.kirjautuminen{
+  width: 300px;
+  border: 1px solid black;
+  margin: 25px;
+  padding: 20px;
+}
+.kirjautuminen label{
+  margin-right: 15px;
+}
+.kirjautuminen input{
+  float: right;
+  margin-right: 20px;
 }
 
 #tuote-esittely{
@@ -113,14 +135,6 @@ html,
 #ostoskori-esittely input{
   width: 40px
 }
-#ostoskori a.nappi{
-  background-color: #1CBBE8;
-  color: white;
-  text-align: center;
-  padding: 10px 15px;
-  display: inline-block;
-  margin-top: 10px;
-}
 .vasenpalsta{
   float: left;
   width: 50%;
@@ -159,12 +173,6 @@ html,
   border: 1px solid black;
   padding: 5px;
 }
-.tuotekuvaus h3{
-  float: left;
-}
-.tuotekuvaus h3.hinta{
-  float: right;
-}
 .tuotekuvaus input{
   width: 40px;
 }
@@ -176,7 +184,4 @@ html,
     background-color: #1CBBE8;
     border-top: 5px solid grey;
     clear: both;
-}
-#footer h3{
-  margin-left: 5px;
 }

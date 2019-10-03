@@ -24,8 +24,7 @@
         <td>#€</td>
       </tr>
       </table>
-      <div id="ostoskori">
-      <a href="#" class="nappi">TILAA</a> </div>
+      <a href="#" class="nappi">TILAA</a>
     </div>
   </div>
 
