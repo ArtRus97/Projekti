@@ -7,7 +7,7 @@
     <?php include "tuotteet/mordhau_ostoskori.php" ?>
     <?php include "tuotteet/fgo_ostoskori.php" ?>
 
-
+    
 
     </div>
   <div class="oikeapalsta">
