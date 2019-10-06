@@ -33,9 +33,9 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `opisk_t6ruar00`.`Asiakas`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `projekti`.`Asiakas` ;
+DROP TABLE IF EXISTS `opisk_t6ruar00`.`Asiakas` ;
 
-CREATE TABLE IF NOT EXISTS `projekti`.`Asiakas` (
+CREATE TABLE IF NOT EXISTS `opisk_t6ruar00`.`Asiakas` (
   `idAsiakas` INT NOT NULL AUTO_INCREMENT,
   `nimi` VARCHAR(45) NULL,
   `salasana` VARCHAR(255) NULL,
