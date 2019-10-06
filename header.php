@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
+    <?php include "yhteys.php"; ?>
     <div class="headerWrap">
       <div id="header">
         <a class="logo" href="index.php">Verkkokauppa</a>

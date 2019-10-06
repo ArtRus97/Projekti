@@ -10,6 +10,7 @@ $stmt->bindParam(':sala',$encrypted_pass);
 
 if($stmt->execute()){
   echo "<h3>Käyttäjänimi luotu nimellä:</h3>".$_POST['nimi'];
+  echo "<h3>Kirjaudu seuraavaksi sisään</h3>";
 }
 else{
   echo "<h3>Luonti epäonnistui</h3>";

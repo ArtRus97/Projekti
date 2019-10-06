@@ -1,6 +1,5 @@
 <title>Kirjautiminen</title>
 <?php include "header.php"; ?>
-<?php include "yhteys.php"; ?>
 <hr>
 <?php
   $annettu_tunnus=$_POST['nimi'];
