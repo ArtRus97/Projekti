@@ -12,13 +12,12 @@
   $oikea_salasana = $stmt->fetch(PDO::FETCH_COLUMN);
 
   if(password_verify($annettu_salasana,$oikea_salasana)) {
-    session_start();
     $_SESSION['kirjautunut']=true;
     $_SESSION['nimi']=$annettu_tunnus;
-    echo '<p>Olet kirjautunut sisään nimellä: </p>'.$_SESSION['nimi'];
+    echo '<h3>Olet kirjautunut sisään nimellä: </h3>'.$_SESSION['nimi'];
   }
   else {
-    echo '<p>Käyttäjänimi tai salasana väärin</p>';
+    echo '<h3>Käyttäjänimi tai salasana väärin</h3>';
   }
 ?>
 
