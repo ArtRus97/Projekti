@@ -11,7 +11,7 @@ $stmt->bindParam(':nimi',$_SESSION['nimi']);
 $stmt->bindParam(':idTuote',$_POST['idTuote']);
 
 if($stmt->execute()){
-  echo '<h3>Lisäsit '.$_POST['maara'].' kappaletta tuotetta, jonka ID on '.$_POST['idTuote'].'ostoskoriisi.</h3><br>';
+  echo '<h3>Lisäsit '.$_POST['maara'].' kappaletta tuotetta, jonka ID on '.$_POST['idTuote'].' ostoskoriisi.</h3><br>';
 }
 else{
   echo "<h3>Lisäys epäonnistui</h3>";
