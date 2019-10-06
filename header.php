@@ -12,7 +12,15 @@
         <table>
           <tr>
             <td><a href="index.php">Asiakaspalvelu</a></td>
-            <td><a href="kirjautuminen.php">Kirjautuminen</a></td>
+            <td>
+              <?php session_start();
+              if(isset($_SESSION['kirjautunut'])){
+                echo "<a href='kirjautuminenUlos.php'>Kirjaudu ulos</a>";
+              }
+              else {
+                echo "<a href='kirjautuminen.php'>Kirjautuminen</a>";
+              } ?>
+            </td>
           </tr>
           <tr>
             <td><a href="index.php">Yhteysteiedot</a></td>

@@ -180,7 +180,9 @@ a.nappi{
     width: 1024px;
     height: 60px;
     bottom: 0;
-    margin:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1CBBE8;
     border-top: 5px solid grey;
     clear: both;
