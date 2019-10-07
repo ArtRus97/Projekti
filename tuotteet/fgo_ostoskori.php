@@ -1,5 +1,5 @@
 <div id="ostoskori-esittely">
-  <a href="fgo_sivu.php"><h3 class="nimi">Fate/Grand Order</h3> <br>
+  <a href="fgo_sivu.php"><h3>Fate/Grand Order</h3> <br>
   <p><img src="kuvat/fgo.jpg" alt="">
     DEVELOPER: Delightworks.
     PUBLISHER: Aniplex.
@@ -8,6 +8,4 @@
     the game features millions of words of original story!
     Packed with content that both fans of the Fate franchise and newcomers will be able to enjoy.
   </p></a>
-  <h3>Määrä: <input type="number" name="" value="1" min="1">
-      0€</h3>
 </div>

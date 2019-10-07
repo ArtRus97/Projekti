@@ -7,7 +7,7 @@
   </div>
 </div>
 <div class="oikeapalsta">
-  <div class="tuotekuvaus">
+  <div id="tuotekuvaus">
     <h2 style="margin:5px;">Tekken 7</h2>
     <h2 style="margin:5px;">40€</h2>
     <p>

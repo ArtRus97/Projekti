@@ -1,23 +1,27 @@
 <title>Ostoskori</title>
 <?php include "header.php"; ?>
+<?php
+if(!isset($_SESSION['kirjautunut'])) {
+	echo '<script> location.replace("kirjautuminenEi.php") </script>';
+} ?>
   <h2>Ostoskori</h2>
   <hr>
   <div class="vasenpalsta">
-    <?php include "tuotteet/tekken7_ostoskori.php" ?>
-    <?php include "tuotteet/mordhau_ostoskori.php" ?>
-    <?php include "tuotteet/fgo_ostoskori.php" ?>
-
     <?php
-    $sql=$db->prepare("SELECT nimi, hinta, maara FROM Tuote join Ostoskori on Tuote.idTuote=Ostoskori.idTuote join Asiakas on Ostoskori.idAsiakas=Asiakas.idAsiakas where asiakas=:nimi");
-    $sql->bindParam(':nimi',$_SESSION['nimi']);
+    $sql='SELECT idOstoskori, osoite, hinta, maara FROM Tuote join Ostoskori on Tuote.idTuote=Ostoskori.idTuote join Asiakas on Ostoskori.idAsiakas=Asiakas.idAsiakas where asiakas="'.$_SESSION['nimi'].'"';
+    //$sql->bindParam(':nimi',$_SESSION['nimi']);
     $products=$db->query($sql); ?>
-
+    <div id="ostoskori-esittely">
      <?php 	foreach ($products as $row) {
-				echo $row['nimi'].'<br>';
-				echo include $row['osoite'];
-        echo $row['maara'];
-				} ?>
+				include $row['osoite'];
+        echo '<h3 class=ostoskori>Määrä: '.$row['maara'].' ';
+        echo 'Hinta: '.$row['hinta']*$row['maara'].'€ </h3>';
 
+        echo '<form action="ostorkoriPoista.php" method="post">';
+        echo '<input type="hidden" name="idOstoskori" value="'.$row['idOstoskori'].'"';
+        echo '<br><input class="submit" type="submit" value="POISTA">';
+        echo '</form><br><hr>'; } ?>
+     </div>
     </div>
   <div class="oikeapalsta">
     <div class="yhteenveto">
