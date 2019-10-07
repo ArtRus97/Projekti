@@ -5,7 +5,7 @@
   $annettu_tunnus=$_POST['nimi'];
   $annettu_salasana=$_POST['sala'];
 
-  $stmt=$db->prepare("SELECT salasana from Asiakas where nimi=:nimi");
+  $stmt=$db->prepare("SELECT salasana from Asiakas where asiakas=:nimi");
   $stmt->bindParam(':nimi', $annettu_tunnus);
   $stmt->execute();
   $oikea_salasana = $stmt->fetch(PDO::FETCH_COLUMN);

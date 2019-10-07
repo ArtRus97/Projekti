@@ -7,7 +7,16 @@
     <?php include "tuotteet/mordhau_ostoskori.php" ?>
     <?php include "tuotteet/fgo_ostoskori.php" ?>
 
-    
+    <?php
+    $sql=$db->prepare("SELECT nimi, hinta, maara FROM Tuote join Ostoskori on Tuote.idTuote=Ostoskori.idTuote join Asiakas on Ostoskori.idAsiakas=Asiakas.idAsiakas where :nimi=asiakas");
+    $sql->bindParam(':nimi',$_SESSION['nimi']);
+    $products=$db->query($sql); ?>
+
+     <?php 	foreach ($products as $row) {
+				echo $row['nimi'].'<br>';
+				echo include $row['osoite'];
+        echo $row['maara'];
+				} ?>
 
     </div>
   <div class="oikeapalsta">
