@@ -9,11 +9,11 @@ $stmt->bindParam(':nimi',$_POST['nimi']);
 $stmt->bindParam(':sala',$encrypted_pass);
 
 if($stmt->execute()){
-  echo "<h3>Käyttäjänimi luotu nimellä:</h3>".$_POST['nimi'];
-  echo "<h3>Kirjaudu seuraavaksi sisään</h3>";
+  echo "<p>Käyttäjänimi luotu nimellä:</p>".$_POST['nimi'];
+  echo "<p>Kirjaudu seuraavaksi sisään</p>";
 }
 else{
-  echo "<h3>Luonti epäonnistui</h3>";
+  echo "<p>Luonti epäonnistui</p>";
 }
 ?>
 <?php include "footer.php"; ?>

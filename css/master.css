@@ -110,31 +110,37 @@ a.nappi{
   width: 96%;
 }
 
-#ostoskori-esittely {
+#ostoskori-esittely{
   width: 450px;
-  height: 175px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin: 25px;
+  margin: 5px;
+  float: left;
 }
 #ostoskori-esittely img{
-  max-width: 100px;
+  max-height: 120px;
   float: left;
-  margin: 5px;
+  margin: 3px;
+}
+#ostoskori-esittely p{
+  width: 400px;
+  height: 125px;
+  margin: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
 }
 #ostoskori-esittely h3{
   float: left;
   margin: 5px;
 }
-#ostoskori-esittely p{
-  width: 400px;
-  height: 100px;
-  overflow: hidden;
-  margin: 1px;
+#ostoskori-esittely input.submit{
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 8px 13px;
+  font-size: 14px;
+  float: right;
 }
-#ostoskori-esittely input{
-  width: 40px
-}
+
 .vasenpalsta{
   float: left;
   width: 50%;
@@ -166,24 +172,25 @@ a.nappi{
   margin-bottom: 25px;
   display: block;
 }
-.tuotekuvaus{
+#tuotekuvaus{
   margin: 25px;
 }
-.tuotekuvaus p{
+#tuotekuvaus p{
   border: 1px solid black;
   padding: 5px;
 }
-.tuotekuvaus input.number{
+#tuotekuvaus input.number{
   width: 40px;
 }
-.tuotekuvaus input.submit{
+#tuotekuvaus input.submit{
   background-color: #1CBBE8;
   color: white;
   text-align: center;
   padding: 10px 15px;
   display: inline-block;
-  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 16px;
+  float: left;
 }
 
 #footer {

@@ -2,6 +2,6 @@
 <?php include "header.php"; ?>
 
 <?php session_destroy(); ?>
-<h3>Olet kirjautunut ulos.</h3>
+<p>Olet kirjautunut ulos.</p>
 
 <?php include "footer.php"; ?>

@@ -13,10 +13,13 @@
   if(password_verify($annettu_salasana,$oikea_salasana)) {
     $_SESSION['kirjautunut']=true;
     $_SESSION['nimi']=$annettu_tunnus;
-    echo '<h3>Olet kirjautunut sisään nimellä: </h3>'.$_SESSION['nimi'];
+    $sql='select idAsiakas from Asiakas where asiakas="'.$_SESSION['nimi'].'"';
+    $result=$db->query($sql);
+    $_SESSION['id']=$result->fetch(PDO::FETCH_COLUMN);
+    echo '<p>Olet kirjautunut sisään nimellä: '.$_SESSION['nimi'].' ja id on: '.$_SESSION['id'].'</p>';
   }
   else {
-    echo '<h3>Käyttäjänimi tai salasana väärin</h3>';
+    echo '<p>Käyttäjänimi tai salasana väärin</p>';
   }
 ?>
 
