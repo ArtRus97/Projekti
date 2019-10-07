@@ -25,7 +25,7 @@
       echo '</form>';
     }
     else {
-      echo "<p>Sinun pitää kirjautua, jotta voit lisätä ostoskoriin</p>";
+      echo "<label>Sinun pitää kirjautua, jotta voit lisätä ostoskoriin</label>";
     } ?>
   </div>
 </div>
