@@ -1,4 +1,3 @@
-<div id="ostoskori-esittely">
   <a href="fgo_sivu.php"><h3>Fate/Grand Order</h3> <br>
   <p><img src="kuvat/fgo.jpg" alt="">
     DEVELOPER: Delightworks.
@@ -8,4 +7,3 @@
     the game features millions of words of original story!
     Packed with content that both fans of the Fate franchise and newcomers will be able to enjoy.
   </p></a>
-</div>
