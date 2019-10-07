@@ -24,7 +24,7 @@
             </td>
           </tr>
           <tr>
-            <td><a href="index.php">Yhteysteiedot</a></td>
+            <td><a href="index.php">Yhteystiedot</a></td>
             <td><a href="ostoskori.php">Ostoskori</a></td>
           </tr>
         </table>
