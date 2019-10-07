@@ -4,7 +4,7 @@
 <?php
 include 'yhteys.php';
 $encrypted_pass = password_hash($_POST['sala'],PASSWORD_DEFAULT);
-$stmt=$db->prepare("INSERT INTO Asiakas VALUES (null,:nimi, :sala)");
+$stmt=$db->prepare("INSERT INTO Asiakas VALUES (null, :nimi, :sala)");
 $stmt->bindParam(':nimi',$_POST['nimi']);
 $stmt->bindParam(':sala',$encrypted_pass);
 
@@ -14,6 +14,5 @@ if($stmt->execute()){
 }
 else{
   echo "<p>Luonti epäonnistui</p>";
-}
-?>
+} ?>
 <?php include "footer.php"; ?>

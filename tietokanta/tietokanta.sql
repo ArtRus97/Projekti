@@ -104,8 +104,8 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `opisk_t6ruar00`;
-INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (1, 'tekken7', 40, 'tuotteet\\tekken7_ostoskori.php');
-INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (2, 'mordhau', 25, 'tuotteet\\mordhau_ostoskori.php');
-INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (3, 'fgo', 0, 'tuotteet\\fgo_ostoskori.php');
+INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (1, 'tekken7', 40, 'tuotteet/tekken7_ostoskori.php');
+INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (2, 'mordhau', 25, 'tuotteet/mordhau_ostoskori.php');
+INSERT INTO `opisk_t6ruar00`.`Tuote` (`idtuote`, `nimi`, `hinta`, `osoite`) VALUES (3, 'fgo', 0, 'tuotteet/fgo_ostoskori.php');
 
 COMMIT;
