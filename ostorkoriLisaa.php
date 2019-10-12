@@ -4,9 +4,9 @@
 <h2>Ostoskori</h2>
 <hr>
 <?php
-$stmt=$db->prepare("INSERT INTO Ostoskori (maara, idAsiakas, idTuote) VALUES(:maara, :idAsiakas, :idTuote)");
+$stmt=$db->prepare("CALL LisaaOstoskoriin(:maara, :nimi, :idTuote)");
 $stmt->bindParam(':maara',$_POST['maara']);
-$stmt->bindParam(':idAsiakas',$_SESSION['id']);
+$stmt->bindParam(':nimi',$_SESSION['nimi']);
 $stmt->bindParam(':idTuote',$_POST['idTuote']);
 
 if($stmt->execute()){
